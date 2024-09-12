@@ -77,12 +77,12 @@ const Home = () => {
 	) : (
 		<>
 			<userContext.Provider value={provider}>
-				<div className=" h-screen w-[100%] grid grid-cols-4 gap-3 p-2 text-sm sm:text-sm md:text-md lg:text-lg text-yellow-900 dark:text-yellow-200 select-none">
+				<div className=" h-screen w-[100%] grid grid-cols-4 gap-3 p-2 text-sm sm:text-sm md:text-md lg:text-lg text-purple-900 dark:text-purple-200 select-none">
+					<List />
 					<div
 						className={`col-span-3 relative transition-all duration-500`}>
 						<Chats />
 					</div>
-					<List />
 				</div>
 			</userContext.Provider>
 		</>

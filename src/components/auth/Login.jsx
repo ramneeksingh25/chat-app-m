@@ -41,7 +41,7 @@ const Login = () => {
 				}}>
 			<div className='flex items-center justify-center'>
 				<img src={logo} alt="logo" className='w-16'/>
-				<div className="text-2xl flex-1 bg-gradient-to-r from-blue-600 via-pink-400 to-blue-600 text-transparent bg-clip-text cursor-auto hover:via-pink-600 hover:from-blue-600 hover:to-blue-600 select-none text-center">
+				<div className="text-2xl flex-1 bg-gradient-to-r from-blue-600 via-pink-400 to-blue-600 text-transparent bg-clip-text cursor-auto hover:via-pink-500 hover:from-blue-600 hover:to-blue-600 select-none text-center">
 					<span className="text-5xl font-semibold tracking-tighter">BuzzTalk</span> <br /> 
 					Chat, Share, Connect
 				</div>

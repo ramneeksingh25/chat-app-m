@@ -42,7 +42,7 @@ const Message = ({ obj, chat }) => {
 						:
 						{new Date(message.sentAt).toLocaleTimeString().split(":")[1]}
 					</div>
-					<div className="bg-white/55 dark:bg-zinc-500/55 hover:bg-white/80 dark:hover:bg-zinc-500/80 px-2 py-1 rounded-full m-[1px] w-fit">
+					<div className="bg-white/55 dark:bg-zinc-500/55 hover:bg-white/80 dark:hover:bg-zinc-400/80 px-2 py-1 rounded-full m-[1px] w-fit">
 						{message.text}
 					</div>
 					{message.photoURL ? (
@@ -66,7 +66,7 @@ const Message = ({ obj, chat }) => {
 					) : (
 						<Avatar name={message.senderName || message.sender} size="sm" />
 					)}
-					<div className="bg-indigo-700/95 dark:bg-indigo-600/55 hover:bg-indigo-600/95 hover:dark-indigo-600/80 text-white px-2 py-1 rounded-full m-[1px] w-fit">
+					<div className="bg-violet-700/95 dark:bg-violet-600/55 hover:bg-violet-600/95 hover:dark-indigo-600/80 text-white px-2 py-1 rounded-full m-[1px] w-fit">
 						{message.text}
 					</div>
 					<div className="hidden group-hover:block select-none">
